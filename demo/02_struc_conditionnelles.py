@@ -10,3 +10,16 @@ else:  # Le chemin par défaut si aucune condition n'est bonne
     print("Vous êtes mineur, retournez en arrière !")
 
 print("Code à la suite")
+
+jour = int(input("Numéro jour de la semaine : "))
+
+
+match jour:
+    case 1:
+        print("Lundi")
+    case 2:
+        print("Mardi")
+    #....
+    
+    case _:
+        print("Erreur numéro")
