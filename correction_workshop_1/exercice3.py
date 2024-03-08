@@ -7,4 +7,4 @@ temps_fonctionnement_total = capacite_batteries / consommation_moyenne
 temps_fonctionnement_heures = int(temps_fonctionnement_total)
 temps_fonctionnement_minutes= int((temps_fonctionnement_total - temps_fonctionnement_heures) * 60) 
 # Affichage du temps de fonctionnement restant
-print(f"Le data center peut continuer à fonctionner pendant {temps_fonctionnement_heures} heures et {temps_fonctionnement_minutes} minutes en utilisant uniquement les batteries de secours.")
+print(f"Le data center peut continuer à fonctionner pendant {temps_fonctionnement_heures} heures, {temps_fonctionnement_minutes} minutes en utilisant uniquement les batteries de secours.")
