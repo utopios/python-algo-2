@@ -5,3 +5,6 @@ print(ma_tuple[0])
 
 for i in ma_tuple:
     print(i)
+_, _, firstname,_ = ma_tuple
+
+print(firstname)
