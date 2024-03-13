@@ -28,3 +28,10 @@ while len(taches_maintenance) > 0:
     else:
         print("Toutes les tâches de maintenance ont été exécutées.")
 
+## Afficher l'adresse mémoire d'une variable
+print(id(taches_maintenance))
+
+
+if not taches_maintenance:
+    print("Empty tasks")   
+
